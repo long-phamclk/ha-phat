@@ -11,7 +11,7 @@ const DuAn = () => {
         <TitleWrapper>
           <Title>Sản Phẩm Dịch Vụ</Title>
         </TitleWrapper>
-        <ImageGrid></ImageGrid>
+        <ImageGrid />
       </Wrapper>
       <Footer />
     </div>
