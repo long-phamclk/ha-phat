@@ -36,6 +36,4 @@ const CardContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  font-size: 1.3rem;
-  font-weight: 400;
 `;
