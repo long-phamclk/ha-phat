@@ -19,6 +19,7 @@ const Wrapper = styled.div`
   padding: 0 100px;
   background-color: hsl(0, 0%, 98%);
   font-size: 1.25rem;
+  margin-top: 50px;
 `;
 
 const LeftP = styled.p``;

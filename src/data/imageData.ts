@@ -1,3 +1,9 @@
+// export interface Image {
+//   id: number;
+//   src: string;
+//   title: string;
+// }
+
 const imageData = [
   {
     id: 1,
@@ -21,6 +27,51 @@ const imageData = [
   },
   { id: 5, src: "/src/assets/du-an-Skylake.png", title: "Dự án Skylake" },
   { id: 6, src: "/src/assets/du-an-Greenbay.png", title: "Dự án Greenbay" },
+  {
+    id: 7,
+    src: "/src/assets/vinhomes-smart-city-tay-mo.png",
+    title: "Vinhomes Smart City Tây Mỗ",
+  },
+  {
+    id: 8,
+    src: "/src/assets/cang-nghi-thiet.png",
+    title: "Cầu Cảng Nghi Thiết",
+  },
+  {
+    id: 9,
+    src: "/src/assets/can-ho-cao-tang-ct8.png",
+    title: "The Emerald CT8",
+  },
+  {
+    id: 10,
+    src: "/src/assets/chung-cu-phu-my-complex-ngoai-giao-doan-n01-t4.png",
+    title: "N01 - T4 Khu Ngoại Giao Đoàn",
+  },
+  {
+    id: 11,
+    src: "/src/assets/Dự án Tòa nhà hỗn hợp HH2 - Gemek Tower.png",
+    title: "Tòa nhà hỗn hợp HH2 - Gemek Tower",
+  },
+  {
+    id: 12,
+    src: "/src/assets/HongKong-Tower - 243A-De-La-Thanh.png",
+    title: "HongKong Tower - 243A De La Thanh",
+  },
+  {
+    id: 13,
+    src: "/src/assets/du-an-P.H-Center-Hung-Yen.png",
+    title: "Dự án P.H Center Hưng Yên",
+  },
+  {
+    id: 14,
+    src: "/src/assets/dai-hoc-thuy-loi - pho-hien.png",
+    title: "Đại học Thủy Lợi - Phố Hiến",
+  },
+  {
+    id: 15,
+    src: "/src/assets/toa-nha-c37-bo-cong-an-officespace-1.png",
+    title: "Tòa nhà C37 - Bộ Công An",
+  },
 ];
 
 export default imageData;

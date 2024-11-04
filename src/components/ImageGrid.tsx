@@ -2,11 +2,17 @@ import styled from "styled-components";
 import imageData from "../data/imageData";
 import ImageCard from "./ui/ImageCard";
 
-const ImageGrid = () => {
+interface ImageGridProps {
+  limit?: number;
+}
+
+const ImageGrid: React.FC<ImageGridProps> = ({ limit }) => {
+  const displayedImages = limit ? imageData.slice(0, limit) : imageData;
+
   return (
     <Wrapper>
       <CardContainer>
-        {imageData.map((imageData) => (
+        {displayedImages.map((imageData) => (
           <ImageCard
             key={imageData.id}
             src={imageData.src}
@@ -30,4 +36,6 @@ const CardContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  font-size: 1.3rem;
+  font-weight: 400;
 `;

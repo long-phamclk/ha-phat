@@ -35,5 +35,6 @@ const Image = styled.img`
 
 const Title = styled.p`
   margin-top: 10px;
-  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: 500;
 `;

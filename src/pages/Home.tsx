@@ -72,7 +72,7 @@ const Home = () => {
         </QualityWrapper>
         <ExamplesWrapper>
           <StyledH1>CÔNG TRÌNH TIÊU BIỂU</StyledH1>
-          <ImageGrid />
+          <ImageGrid limit={6} />
         </ExamplesWrapper>
       </BodyWrapper>
       <Footer />

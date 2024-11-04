@@ -125,11 +125,10 @@ export default GioiThieu;
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 0 20px;
-  padding: 0 100px;
+  margin: 0 120px;
 
   @media (max-width: 768px) {
-    padding: 0 50px;
+    margin: 0 50px;
   }
 `;
 
@@ -138,8 +137,9 @@ const TitleWrapper = styled.div`
   justify-content: center;
 `;
 
-const Title = styled.p`
+const Title = styled.h1`
   font-size: 3rem;
+  font-weight: 500;
   color: hsl(144, 84%, 31%);
   padding-top: 20px;
 `;
