@@ -9,7 +9,7 @@ const DuAn = () => {
       <Header />
       <Wrapper>
         <TitleWrapper>
-          <Title>Sản Phẩm Dịch Vụ</Title>
+          <Title>Dự Án</Title>
         </TitleWrapper>
         <ImageGrid />
       </Wrapper>
