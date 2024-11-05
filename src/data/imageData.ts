@@ -7,12 +7,12 @@
 const imageData = [
   {
     id: 1,
-    src: "/src/assets/chung-cu-gemek.png",
+    src: "/assets/chung-cu-gemek.png",
     title: "Chung cư Gemek Tower",
   },
   {
     id: 2,
-    src: "/src/assets/duong-sat-do-thi Cat-Linh - Ha-Dong.png",
+    src: "/assets/duong-sat-do-thi Cat-Linh - Ha-Dong.png",
     title: "Đường sắt đô thị Cát Linh - Hà Đông",
   },
   {
