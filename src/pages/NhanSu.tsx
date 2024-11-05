@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styled from "styled-components";
-import image from "../assets/tuyen dung nhan su.png";
+import image from "../../public/assets/tuyen dung nhan su.png";
 
 const NhanSu = () => {
   return (
