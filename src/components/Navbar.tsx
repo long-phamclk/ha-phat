@@ -71,6 +71,12 @@ const NavButtonContainer = styled.div`
 const NavButton = styled(NavLink)`
   font-size: 1.375rem;
   text-decoration: none;
+  color: black;
+
+  &.active {
+    font-weight: bold;
+    color: #007bff; /* Change the color for the active link */
+  }
 `;
 
 const MobileNavButton = styled.button`
@@ -103,5 +109,10 @@ const DropdownItem = styled(NavLink)`
 
   &:hover {
     background-color: hsl(0, 0%, 90%); /* Change background on hover */
+  }
+
+  &.active {
+    font-weight: bold;
+    color: #007bff; /* Change the color for the active link */
   }
 `;
