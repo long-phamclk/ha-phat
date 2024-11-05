@@ -20,6 +20,11 @@ const Wrapper = styled.div`
   background-color: hsl(0, 0%, 98%);
   font-size: 1.25rem;
   margin-top: 50px;
+
+  @media (max-width: 768px) {
+    padding: 0 50px;
+    margin-top: 0px;
+  }
 `;
 
 const LeftP = styled.p``;

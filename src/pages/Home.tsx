@@ -34,7 +34,7 @@ const Home = () => {
         </IntroWrapper>
         <QualityWrapper>
           <StyledH1>CHẤT LƯỢNG DỊCH VỤ</StyledH1>
-          <StyledArticleRow>
+          <StyledArticles>
             <StyledArticle>
               <StyledH3>Dịch vụ chuyên nghiệp</StyledH3>
               <p>
@@ -68,7 +68,7 @@ const Home = () => {
                 trách nhiệm và vinh hạnh của chúng tôi
               </p>
             </StyledArticle>
-          </StyledArticleRow>
+          </StyledArticles>
         </QualityWrapper>
         <ExamplesWrapper>
           <StyledH1>CÔNG TRÌNH TIÊU BIỂU</StyledH1>
@@ -90,12 +90,23 @@ const BodyWrapper = styled.div`
 
 const IntroWrapper = styled.div`
   padding: 25px 100px 50px;
+
+  @media (max-width: 768px) {
+    padding: 10px 50px 30px;
+  }
 `;
 
 const QualityWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: hsl(0, 0%, 98%);
   padding: 0px 100px 40px;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    padding: 0px 50px 30px;
+  }
 `;
 
 const ExamplesWrapper = styled.div``;
@@ -104,6 +115,11 @@ const StyledH1 = styled.h1`
   font-size: 3rem;
   color: hsl(144, 84%, 31%);
   padding: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
 `;
 
 const StyledSection = styled.section``;
@@ -113,13 +129,14 @@ const StyledParagraph = styled.p`
   text-align: left;
 `;
 
-const StyledArticleRow = styled.div`
+const StyledArticles = styled.div`
   display: flex;
   justify-content: center;
   gap: 80px;
+  flex-wrap: wrap;
 
-  @media (max-width: 768px) {
-    display: block; /* Show button on mobile */
+  @media (max-width: 1350px) {
+    gap: 0px;
   }
 `;
 
@@ -129,7 +146,7 @@ const StyledArticle = styled.article`
   background-color: hsl(0, 0%, 94%);
 
   @media (max-width: 768px) {
-    margin: 20px; /* Show button on mobile */
+    margin: 10px;
   }
 `;
 

@@ -142,6 +142,10 @@ const Title = styled.h1`
   font-weight: 500;
   color: hsl(144, 84%, 31%);
   padding-top: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const StyledSection = styled.section``;

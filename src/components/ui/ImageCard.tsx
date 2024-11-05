@@ -24,6 +24,10 @@ const Card = styled.div`
   width: 300px;
   text-align: center;
   margin: 50px;
+
+  @media (max-width: 768px) {
+    margin: 10px;
+  }
 `;
 
 const Image = styled.img`

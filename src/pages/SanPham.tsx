@@ -47,6 +47,10 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 120px;
+
+  @media (max-width: 768px) {
+    margin: 0 30px;
+  }
 `;
 
 const TitleWrapper = styled.div`
@@ -59,6 +63,10 @@ const Title = styled.h1`
   font-weight: 500;
   color: hsl(144, 84%, 31%);
   padding-top: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const Headline = styled.h2`

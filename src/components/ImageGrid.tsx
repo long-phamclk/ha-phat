@@ -29,6 +29,10 @@ export default ImageGrid;
 const Wrapper = styled.div`
   text-align: center;
   padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
 `;
 
 const CardContainer = styled.div`
@@ -36,4 +40,8 @@ const CardContainer = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+
+  @media (max-width: 768px) {
+    gap: 0;
+  }
 `;
