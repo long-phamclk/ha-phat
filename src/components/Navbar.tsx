@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo.svg";
+import Logo from "../../public/assets/Logo.svg";
 import styled from "styled-components";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";

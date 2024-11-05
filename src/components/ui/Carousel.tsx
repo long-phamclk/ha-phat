@@ -1,4 +1,4 @@
-import carousel from "../../assets/back-ground.png";
+import carousel from "../../../public/assets/back-ground.png";
 import styled from "styled-components";
 
 const Carousel = () => {
